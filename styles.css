@@ -3,14 +3,15 @@ body {
 }
 
 main {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: darkslategrey;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 900px) {
     main{
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 }
 
@@ -18,6 +19,12 @@ main {
 
 body, html {
     height: 100%;
+}
+
+.todotitle {
+    font-size: 20px;
+    text-size-adjust: auto;
+    padding-top: 3px;
 }
 
 .hero-image {
@@ -38,3 +45,18 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+/* BIN BUTTON CODE */
+
+.btn {
+    background-color: white; 
+    border: none; 
+    color: black;
+    padding: 12px 16px; 
+    font-size: 9px; 
+    cursor: pointer; 
+  }
+  
+  .btn:hover {
+    background-color: rgb(248, 128, 148);
+  }
